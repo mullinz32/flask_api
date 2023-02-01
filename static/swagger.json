@@ -1,0 +1,25 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "My API",
+        "description": "An example API documentation"
+    },
+    "host": "localhost:8000",
+    "basePath": "/login",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/users": {
+            "get": {
+                "summary": "Login to Flask App",
+                "responses": {
+                    "200": {
+                        "description": "Successfully logged into Flask App"
+                    }
+                }
+            }
+        }
+    }
+}
